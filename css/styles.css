@@ -51,6 +51,11 @@ body {
   left: -9999px;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* -------------------HEADER------------------- */
 
 .logo {
