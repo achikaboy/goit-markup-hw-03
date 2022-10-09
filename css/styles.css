@@ -28,6 +28,10 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+img {
+  display: block;
+}
+
 /* -------------------BODY------------------- */
 
 body {
@@ -53,10 +57,16 @@ body {
 
 .container {
   width: 1200px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 /* -------------------HEADER------------------- */
+
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .logo {
   font-family: "Raleway";
@@ -109,6 +119,8 @@ body {
 /* -------------------INDEX HERO------------------- */
 .hero {
   background-color: var(--background-dark);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -120,6 +132,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--brand-light);
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -145,11 +158,17 @@ body {
 
 /* -------------------INDEX BENEFITS------------------- */
 
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .benefits-title {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .benefits-after-title {
@@ -160,29 +179,31 @@ body {
 }
 
 /* -------------------INDEX WEDOING------------------- */
+
+.wedoing {
+  padding-bottom: 94px;
+}
+
 .section-title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 /* -------------------INDEX TEAM------------------- */
 
 .team {
   background-color: var(--background-light);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-item {
-  width: 270px;
-  height: 368px;
   background: var(--brand-light);
   /* material shadow v1 */
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
+} 
 
 .team-name-surname {
   font-size: 16px;
@@ -190,7 +211,8 @@ body {
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 30px auto 10px auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-position {
@@ -199,7 +221,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--contacts-color);
-  margin: 10px auto 30px auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* -------------------PORTFOLIO------------------- */
@@ -247,10 +270,22 @@ body {
 
 .footer {
   background-color: var(--background-dark);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .footer-adress {
   font-style: normal;
+}
+
+.footer-item {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-location {
